@@ -1,0 +1,24 @@
+# Secrets
+src/config.toml
+.env
+PRIVATE_ACCOUNTS.md
+
+# Firefox profiles (contain cookies/sessions)
+firefox_profiles/
+
+# Binaries (download separately)
+bin/geckodriver
+bin/*.tar.gz
+
+# Logs
+*.log
+/tmp/
+
+# Python
+__pycache__/
+*.pyc
+*.bak
+*.bak_*
+
+# OS
+.DS_Store

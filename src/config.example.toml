@@ -1,0 +1,22 @@
+# Polymarket Claim Bot config
+# Copy this to config.toml and fill in your values.
+
+# persistent=false: fresh Firefox per cycle. true: keep profile state (better performance)
+persistent = false
+
+# Optional: Telegram alerts on login failures
+# Create bot via @BotFather, get chat_id from @userinfobot
+telegram_bot_token = ""
+telegram_chat_id = ""
+
+# One account block per Polymarket account.
+# firefox_profile = folder name inside /root/snap/firefox/common/.mozilla/firefox/
+# (or ~/.mozilla/firefox/ on desktop)
+
+[[accounts]]
+name = "Main Account"
+firefox_profile = "claimbot.default"
+
+# [[accounts]]
+# name = "Secondary Account"
+# firefox_profile = "another.profile"
