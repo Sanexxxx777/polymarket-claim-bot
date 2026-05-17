@@ -16,12 +16,12 @@ Config (config.toml):
     telegram_chat_id = "12345678"
 
     [[accounts]]
-    name = "Zero Post-Close"
-    firefox_profile = "gsg6wfv0.default"
+    name = "Account 1"
+    firefox_profile = "claimbot.default"
 
     [[accounts]]
-    name = "Follow Delta"
-    firefox_profile = "followdelta.default"
+    name = "Account 2"
+    firefox_profile = "claimbot2.default"
 
 Usage:
     python3 claim_bot_v2.py              # headless mode
