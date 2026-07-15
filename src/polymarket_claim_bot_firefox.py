@@ -12,7 +12,7 @@ v2 improvements over v1:
 
 Config (config.toml):
     # Optional Telegram alerts
-    telegram_bot_token = "8247968400:AAG..."
+    telegram_bot_token = "1234567890:AAAbbbCCCdddEEEfffGGGhhhIIIjjjKKK"
     telegram_chat_id = "12345678"
 
     [[accounts]]

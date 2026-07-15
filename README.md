@@ -70,4 +70,4 @@ screen -S claimbot -X quit
 
 ## Лицензия
 
-Private — не для публичного распространения.
+MIT — см. [`LICENSE`](LICENSE).
