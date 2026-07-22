@@ -68,6 +68,14 @@ tail -20 /tmp/claim.log
 screen -S claimbot -X quit
 ```
 
+## Безопасность
+
+См. [SECURITY.md](SECURITY.md).
+
 ## Лицензия
 
 MIT — см. [`LICENSE`](LICENSE).
+
+## Контакт
+
+**Aleksandr Shulgin** ([@Sanexxxx777](https://github.com/Sanexxxx777)) (@Aleksandr_NFA)
